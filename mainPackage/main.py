@@ -1,5 +1,8 @@
 
 
-from decryptPackage import decrypt
+from decryptPackage import load_json
 if __name__ == '__main__':
-    decrypt.load_and_decrypt()
+    key = 'KUtHo1Xqsa2L__6ODtD86Tj-_f5A4nsLvvuUjA2FMmE='
+    
+    encrypted_message = load_json.load_fulcher("TeamsAndEncryptedMessagesForDistribution.json")
+    load_json.decrypt_fernet(encrypted_message, key)
