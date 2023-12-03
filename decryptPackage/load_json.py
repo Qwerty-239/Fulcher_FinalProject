@@ -16,5 +16,3 @@ def decrypt_fernet(encrypted_message, key):
     decrypted_message = cipher_suite.decrypt(encrypted_message[0])
     print(decrypted_message)
     
-#def decrypt_english():
-    
