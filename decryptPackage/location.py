@@ -11,6 +11,12 @@
 
 from decryptPackage import load_json
 def find_location():
+    '''
+    author: James Speed
+    purpose: takes encrypted data extracted from json file and uses english-2.txt as a cipher to find the location given
+    returns: deciphered words as a list because who has time to condense the list into a single string for a one time thing y'know?
+    '''
+    
     encrypted_message = load_json.load_fulcher("EncryptedGroupHints Fall 2023 Section 001.json")
     
     with open("english-2.txt", 'r') as file:

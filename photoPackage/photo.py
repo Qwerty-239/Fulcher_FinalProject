@@ -13,6 +13,12 @@ from PIL import Image, ImageShow, ImageFile
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 def load_and_display_image(image_path):
+    
+    '''
+    author: Jack Cannon
+    purpose: loads image, flips it from being mirrored, and displays it
+    '''
+    
     try:
         myimage = Image.open(image_path)
 
@@ -24,8 +30,6 @@ def load_and_display_image(image_path):
 
         
         ImageShow.show(flipped_image)
-
-        return flipped_image
 
     except Exception as e:
         print(f"Error loading and displaying the image: {e}")
