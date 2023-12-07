@@ -5,7 +5,7 @@
 # Due Date: 12/7/2023
 # Course: IS 4010
 # Semester/Year: Fall 2023
-# Brief Description: This project demonstrates that we can use Eclipse to create a PyDev project that executes all the desired functions and code.
+# Brief Description: Opens and displays the photo showcasing the proper location and movie quote
 # Citations: CHATGPT and Stack Overflow
 # Anything else that's relevant: We really do not like SAND!
 
